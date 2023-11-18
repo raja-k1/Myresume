@@ -1,0 +1,175 @@
+<html>
+  <head>
+   <title>MY RESUME</title>
+   <style>
+   body {
+    background-color:ghostwhite;
+   }
+   h1 {
+    color :black;
+    text-align:center;
+   }
+   h3 {
+    color :red;
+   }
+   h4 {
+    color :brown;
+   }
+   th {
+background-color: lavenderblush;
+   }
+   #skillsummary {
+   text-indent:50px;
+   text-align:justify;
+   }
+   #learn {
+   text-indent:50px;
+   }
+   #career {
+   text-indent:50px;
+   }
+     #personal details {
+     #table {
+<table>
+ <tr>
+   <th scope="value">
+ </tr>
+</table>
+       }
+       }
+
+   #declaration {
+   text-indent:50px;
+   }
+     #updated date {
+     text-align:right;
+}
+#signature{
+		float:right;
+		margin-bottom:60px;
+		margin-right:20px;
+	}
+
+ </style>
+  </head>
+  <body>
+    <div id="htmlContent">
+  <h1> RESUME </h1>
+  <h3>RAJA .K</h3>
+  <p><b>College Mail id :</b>rajak.cs21@kascsathy.ac.in</p>
+  <p><b> Personal Mail id :</b>saravanavideovlr@gmail.com</p>
+   <p><b>GitHub :</b>rajak-cs21</p>
+ <p><b>Mobile Number :</b>9443110134</p>
+ <h3>CAREER OBJECTIVES</h3>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;To get an opportunity where I can make the best of my potential and contribute to the organization's growth.</p>
+  <h3>EDUCATION</h3>
+<table border="3" style="width:70%">
+  <tr style="height:50px">
+  <th colspan="2">EDUCATION</th>
+  <th> INSTITUTION</th>
+  <th scope="col">UNIVERSITY/BOARD</th>
+  <th>YEAR OF PASSING</th>
+  <th>PERCENTAGE</th>
+  </tr>
+  <tr style="height:35px">
+  <th>UNDERGRADUATE</th>
+  <td>B.Sc Computer Science</td>
+  <td>Kaamadhenu Arts and Science College,Sathyamangalam,Erode.</td>
+  <td>Bharathiar University</td>
+<td>Pursuing</td>
+  <td>64.00%%  Till 4th semester</td>
+  </tr>
+  <tr style="height:35px">
+  <th>HSC</th>
+  <td>XII standard</td>
+  <td>Central Hr Sec School,Kayalpatanam.</td>
+  <td>State Board</td>
+<td>2021</td>
+  <td>66.33%</td>
+  </tr>
+  <tr style="height:35px">
+  <th>SSLC</th>
+  <td>X standard</td>
+  <td>Government Higher Secondory School,Vallioor.</td>
+  <td>State Board</td>
+  <td>2019</td>
+  <td>52.20%</td>
+</table>
+  <h3>SKILLS</h3>
+  <li>C</li>
+  <li>Java</li>
+  <li>MySQL</li>
+  <li>HTML & CSS</li>
+  <li>Linux Shell Programming</li>
+<li>GitHub</li>
+<li>PhotoShop</li>
+  </ul>
+  <h3>LEARNING SKILLS</h3>
+  <ul>
+  <h4>C</h4>
+  <li>LOOP</li>
+  <li>IF ELSE</li>
+  <li>FUNCTIONS</li>
+  <li>ARRAY</li>
+  </ul>
+  <ul>
+  <h4>CLOUD SHELL</h4>
+  &nbsp;&nbsp;&nbsp;&nbsp;How to access the c,c++,java,html,database in cloud shell.I have learnt the commands like create directories[mkdir],create files,remove directories[rm r],remove files[rm],home direct.
+  <h4>MYSQLITE</h4>
+  &nbsp;&nbsp;&nbsp;&nbsp;To connect c and sqlite.In cloud shell(commands like:CRUD,alter,droup,mode box).
+  <h4>MYSQL</h4>
+  &nbsp;&nbsp;&nbsp;&nbsp;To connect mysql and maven.In cloud shell(using docker container),I have learnt the commands docker ps,bash start mariadb.sh,[password mariadb(mysql -h 127.0.0.1 -P 3310 -u root -p].
+  <h4>MAVEN</h4>
+  &nbsp;&nbsp;&nbsp;&nbsp;How to use maven.I have lernt the like commands mvn compile,mvn exec,mvn -q exec,tree structure,mvn tomcat7:run,commands in maven.
+  <h4>GITHUB</h4>
+  &nbsp;&nbsp;&nbsp;&nbsp;How to push the programs in GitHub.I have lernt a commands git init,git add,git config,git commit,git branch,git push in gitHub page create using GitHub User Name[rajak-cs21].
+    <h4> DATABASE  CONNECTIVITY</h4>
+    &nbsp;&nbsp;&nbsp;&nbsp;In cloud shell using Maven(c, DatabaseJava and Database).
+    <h4>LINUX</h4>  
+    <li>&nbsp;&nbsp;&nbsp;&nbsp;In cloud shell using Maven(c, DatabaseJava and Database)</li><br>
+  <li>  &nbsp;&nbsp;&nbsp;&nbsp;In cloud shell(commands like:ls,pwd,chmod,mkdir,cd,rm,rm -r,wc,mv,touch,cp,sudo,clear,exit).</li>
+  </ul>
+   
+  
+    <h3>HOBBIES</h3>
+    <ul>
+    </li>
+        <li>Reading books</li>
+    <li>Photography</li>
+    <li>Gardening</li>
+    </ul>
+   </h3>
+ 
+     </table>
+
+
+  <h3>DECLARATION</h3>
+  <p id="declaration">&nbsp;&nbsp;&nbsp;&nbsp;I hereby declare that all the information given above are true and correct to the best of my knowledge.And I bear the responsibilities for the correctness of the above mentioned particulars.</p>
+<p><b>Place :</b></p>
+<p><b>Date :</b></p>
+<p id="signature"><b>Signature</b></p>
+
+
+
+
+
+<div id="editor"></div>
+</body>
+<center>
+<button onclick="printDiv('htmlContent')">Print / Save Pdf</button>
+</center>
+
+<script type="text/javascript">
+
+      function printDiv(div_id) 
+    	{
+    	  var divToPrint=document.getElementById(div_id);
+    	  var newWin=window.open('','Print-Window');
+    	  newWin.document.open();
+    	  newWin.document.write('<html><body onload="window.print()">'+divToPrint.innerHTML+'</body></html>');
+    	  newWin.document.close();
+    	  setTimeout(function() { newWin.close();},10);
+    	}
+</script>
+</html>
